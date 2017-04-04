@@ -20,3 +20,9 @@ If you want to create the images of the style reconstuction at the different sta
 
 ## Recreating gifs
 To recreate the gifs from [my blog](hacktilldawn.com) make sure to have the appropriate images in the Content or Style folder and run the Image Stitching notebook with the appropriate folder name.  For example, if you want to generate the gif for content reconstruction at layer 2, change the parameter inside glob.glob in the second cells to say Content2/*.
+
+## Requirements
+
+Install Anaconda and use the provided env.yml to set up an environment with the required packaged by running
+
+'conda env create env.yml'
