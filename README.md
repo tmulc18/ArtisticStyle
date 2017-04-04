@@ -1,8 +1,8 @@
 # ArtisticStyle
-Artistic Style implementations from (A Neural Algorithm for Artistic Style)[https://arxiv.org/abs/1508.06576]
+Artistic Style implementations from [A Neural Algorithm for Artistic Style](https://arxiv.org/abs/1508.06576)
 
 ## Weights
-The weights for the pretrained models on Imagenet were taken from Keras and can be found (here)[https://github.com/fchollet/deep-learning-models/releases/].  (VGG19)[https://github.com/fchollet/deep-learning-models/releases/download/v0.1/vgg19_weights_tf_dim_ordering_tf_kernels_notop.h5]
+The weights for the pretrained models on Imagenet were taken from Keras and can be found [here](https://github.com/fchollet/deep-learning-models/releases/).  [VGG19](https://github.com/fchollet/deep-learning-models/releases/download/v0.1/vgg19_weights_tf_dim_ordering_tf_kernels_notop.h5)
 
 ## Style Recontructions
 Artistic Style Tensorflow (style).ipynb
@@ -19,4 +19,4 @@ For whatever level of content you want to generate, assign appropriate loss vari
 If you want to create the images of the style reconstuction at the different stages of the networks, makesure to have the Content\<n\> folder in the root directory and uncomment the code in the training cell. 
 
 ## Recreating gifs
-To recreate the gifs from (my blog)[hacktilldawn.com] make sure to have the appropriate images in the Content or Style folder and run the Image Stitching notebook with the appropriate folder name.  For example, if you want to generate the gif for content reconstruction at layer 2, change the parameter inside glob.glob in the second cells to say Content2/*.
+To recreate the gifs from [my blog](hacktilldawn.com) make sure to have the appropriate images in the Content or Style folder and run the Image Stitching notebook with the appropriate folder name.  For example, if you want to generate the gif for content reconstruction at layer 2, change the parameter inside glob.glob in the second cells to say Content2/*.
