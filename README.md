@@ -25,4 +25,4 @@ To recreate the gifs from [my blog](hacktilldawn.com) make sure to have the appr
 
 Install Anaconda and use the provided env.yml to set up an environment with the required packaged by running
 
-`conda env create env.yml`
+`conda env create -f env.yml`
