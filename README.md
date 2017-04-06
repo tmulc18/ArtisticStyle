@@ -1,8 +1,12 @@
 # ArtisticStyle
 Artistic Style implementations from [A Neural Algorithm for Artistic Style](https://arxiv.org/abs/1508.06576)
 
+![](basic2.gif)
+
 ## Weights
 The weights for the pretrained models on Imagenet were taken from Keras and can be found [here](https://github.com/fchollet/deep-learning-models/releases/).  [VGG19](https://github.com/fchollet/deep-learning-models/releases/download/v0.1/vgg19_weights_tf_dim_ordering_tf_kernels_notop.h5)
+
+Make sure the VGG19 no top h5 is in the root directory.
 
 ## Style Recontructions
 Artistic Style Tensorflow (style).ipynb
@@ -16,7 +20,7 @@ If you want to create the images of the style reconstuction at the different sta
 ## Content Recontructions
 Artistic Style Tensorflow (content).ipynb
 
-![style gif](content4.gif)
+![content gif](content4.gif)
 
 For whatever level of content you want to generate, assign appropriate loss variable to the loss\_content variable in the graph declaration.  For example, if you want to generate content using conv1\_1, assign loss\_content to loss1.
 
