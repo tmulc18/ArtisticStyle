@@ -1,7 +1,7 @@
 # ArtisticStyle
 Artistic Style implementations from [A Neural Algorithm for Artistic Style](https://arxiv.org/abs/1508.06576)
 
-![](basic2.gif)
+![styleContent](images/basic2_2.gif)
 
 ## Weights
 The weights for the pretrained models on Imagenet were taken from Keras and can be found [here](https://github.com/fchollet/deep-learning-models/releases/).  [VGG19](https://github.com/fchollet/deep-learning-models/releases/download/v0.1/vgg19_weights_tf_dim_ordering_tf_kernels_notop.h5)
