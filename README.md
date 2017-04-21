@@ -11,7 +11,7 @@ Make sure the VGG19 no top h5 is in the root directory.
 ## Style Recontructions
 Artistic Style Tensorflow (style).ipynb
 
-![style gif](style2.gif)
+![style gif](images/style2.gif)
 
 For whatever level of style you want to generate, assign appropriate loss variable to the loss\_style variable in the graph declaration.  For example, if you want to generate content using conv1\_1, assign loss\_style to loss1.
 
@@ -20,7 +20,7 @@ If you want to create the images of the style reconstuction at the different sta
 ## Content Recontructions
 Artistic Style Tensorflow (content).ipynb
 
-![content gif](content4.gif)
+![content gif](images/content4.gif)
 
 For whatever level of content you want to generate, assign appropriate loss variable to the loss\_content variable in the graph declaration.  For example, if you want to generate content using conv1\_1, assign loss\_content to loss1.
 
