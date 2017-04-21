@@ -34,3 +34,5 @@ To recreate the gifs from [my blog](https://www.hacktilldawn.com) make sure to h
 Install [Anaconda](https://www.continuum.io/downloads) and use the provided env.yml to set up an environment with the required packages by running
 
 `conda env create -f env.yml`
+
+## [Presentation slides](https://drive.google.com/open?id=0B3NC6C-8OM5BeWtBWWx0X250UWM)
